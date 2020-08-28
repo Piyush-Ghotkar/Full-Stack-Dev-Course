@@ -11,13 +11,15 @@
 </ul>
 </p>
 
+<p align="center" style="BACKGROUND-COLOR: #656565;">
+<img src="https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/full-stack-development-main.jpg" height="500" >
+  </p>
 <p>
   <h2>Popular Stacks</h2>
   <ul>
 <li>LAMP stack: JavaScript - Linux - Apache - MySQL - PHP</li>
 <li>LEMP stack: JavaScript - Linux - Nginx - MySQL - PHP</li>
 <li>MEAN stack: JavaScript - MongoDB - Express - AngularJS - Node.js </li>
-  
 <li>Django stack: JavaScript - Python - Django - MySQL</li>
 <li>Ruby on Rails: JavaScript - Ruby - SQLite - Rails</li>
 </ul>
