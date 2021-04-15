@@ -1,0 +1,138 @@
+/* TODO: read about sans font  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #FBBF24;
+    --dark-gray: #9CA3AF;
+    --ligh-gray: #E5E7EB;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* or
+    padding: 0rem 1rem     (top left bottom right or top/bottom left/right) 
+    */
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    padding:  0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .brand-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    padding: 0rem 1rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .hero-inverted {
+    color: var(--primary-color)
+}
+
+/* section */
+
+.section {
+    padding: 2rem 1rem;
+}
+
+.section h3{
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--ligh-gray)
+}
+
+footer {
+    padding: 2rem;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    color: white;
+    text-align: center;
+
+}
+
+footer ul {
+    padding-inline-start: 0px;
+    padding-top: 1rem;
+}
+footer .link{
+    color: white;
+    
+}
